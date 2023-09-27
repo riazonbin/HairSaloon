@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a49deb1-c48d-4832-9393-f08fa09b83b6">
+  <producedTypes>
+    <objectType typeId="394ce498-ea7a-47d2-a828-07a9e9edfe10" valueTypeId="680ebd5f-9fd1-4fac-8bab-40cd048b5d41"/>
+    <refType typeId="a4abae9a-3c86-4eea-89ed-5ac3ae0450a7" valueTypeId="5cc46d2d-c871-4914-bb65-cd2ed59920be"/>
+    <selectionType typeId="8960f8c4-a694-4dd8-b2c2-a0de96ea09da" valueTypeId="9d638616-96c3-4d95-b956-779483547357"/>
+    <listType typeId="5c2e4527-2c95-4ba3-adff-b42c4fe3c4d7" valueTypeId="8fbab73d-6382-4438-950e-04df69b105e9"/>
+    <managerType typeId="44bcb3c3-85c1-4039-a674-4fbb1195f15f" valueTypeId="98ae8809-6339-4a46-8bf2-a579aaffe3ba"/>
+  </producedTypes>
+  <name>Услуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Услуги.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Услуги.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Услуги.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Услуги.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="7cca2d35-15f5-4938-9a56-6714d1e6ec15">
+    <name>Длительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0ce243f2-ae4b-4be5-b0af-ec4a3f20ae12">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a4e19282-0bd0-4e5d-8110-0a2ec81eaa30">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

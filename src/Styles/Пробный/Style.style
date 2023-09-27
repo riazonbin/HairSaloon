@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:ColorStyleItem">
+    <name>ActivityColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>100</red>
+      <green>185</green>
+      <blue>233</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AccentColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>31</red>
+      <green>63</green>
+      <blue>157</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>NavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>44</red>
+      <green>56</green>
+      <blue>103</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AuxiliaryNavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>80</red>
+      <green>102</green>
+      <blue>186</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ImportantColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.FieldSelectionBackColor</color>
+    </color>
+  </items>
+</style:Style>

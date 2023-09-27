@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cc7fc61-31f6-428e-ab94-bb350c6577d6">
+  <producedTypes>
+    <objectType typeId="94ae5100-bd40-47f4-9201-1a9bdf772ee8" valueTypeId="c2b54cd3-435c-49cf-9068-98f95332f33a"/>
+    <managerType typeId="ede381b8-a142-45ac-9e14-4359d2bd829f" valueTypeId="f1f85930-dfcb-4602-a46e-2644414ba5c7"/>
+  </producedTypes>
+  <name>ЖурналЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал записей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЖурналЗаписей.Form.Форма</defaultForm>
+  <forms uuid="2bbaffe5-3ad6-465a-b974-47028026c208">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4234c537-c324-47f8-bc8a-dd4556c96268">
+    <name>ОткрытьЖурналЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал записей</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
