@@ -218,7 +218,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.АдресСалона.StandardCommand.Open</command>
+      <command>100:0b4d44e3-c2b3-46bd-8c4a-ce02e33f1d3c</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -414,7 +414,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.Телефон.StandardCommand.Open</command>
+      <command>100:b0781555-b70d-4c4b-8cba-987c43e4adec</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>

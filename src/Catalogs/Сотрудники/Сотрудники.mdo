@@ -64,7 +64,9 @@
       <value>Место работы</value>
     </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>59ea89be-5a78-49c0-8f8e-01e324e52bd9.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>

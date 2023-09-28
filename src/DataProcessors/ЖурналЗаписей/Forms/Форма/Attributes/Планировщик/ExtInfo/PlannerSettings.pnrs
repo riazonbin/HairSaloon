@@ -37,7 +37,6 @@
     <levels>
       <measure>Hour</measure>
       <interval>1</interval>
-      <show>true</show>
       <line>
         <width>1</width>
         <style>Solid</style>
@@ -54,9 +53,30 @@
       <labels/>
       <showPereodicalLabels>true</showPereodicalLabels>
     </levels>
+    <levels>
+      <measure>Minute</measure>
+      <interval>30</interval>
+      <show>true</show>
+      <line>
+        <width>1</width>
+        <style>Dotted</style>
+      </line>
+      <scaleColor xsi:type="core:ColorDef">
+        <red>192</red>
+        <green>192</green>
+        <blue>192</blue>
+      </scaleColor>
+      <dayFormatRule>MonthDayWeekDay</dayFormatRule>
+      <format>
+        <key>ru</key>
+        <value>ДФ=ЧЧ:мм</value>
+      </format>
+      <labels/>
+      <showPereodicalLabels>true</showPereodicalLabels>
+    </levels>
   </timeScale>
   <periods>
-    <begin>2023-09-27T00:00:00</begin>
-    <end>2023-09-27T23:59:59</end>
+    <begin>2023-09-28T00:00:00</begin>
+    <end>2023-09-28T23:59:59</end>
   </periods>
 </planner:PlannerSettings>

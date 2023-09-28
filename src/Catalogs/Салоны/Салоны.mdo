@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="962a2051-6015-4832-a8eb-d569f37ece04">
+  <producedTypes>
+    <objectType typeId="cdc22042-c0ab-401b-8642-9d64743a19b8" valueTypeId="58e60ef9-cbb9-41e5-84a8-9043b2edfc93"/>
+    <refType typeId="4755df42-8dcd-4d04-8b13-b4a75319a4ab" valueTypeId="0b2b6cec-93ce-47e9-b69c-e570265c3d8e"/>
+    <selectionType typeId="7a119a62-5c14-4340-9207-8c2a193c3c88" valueTypeId="05e003e2-dca8-4aef-83b8-b35d87ff33ea"/>
+    <listType typeId="9ff62149-5e58-452a-9128-d6f6fda649cf" valueTypeId="62ddfe8f-a9d9-4ac4-8d9b-d37e76de8f8c"/>
+    <managerType typeId="1c0c2227-91b6-467e-9061-92cad91fb772" valueTypeId="26b45a73-53a8-429a-ae1c-69b8d80311fb"/>
+  </producedTypes>
+  <name>Салоны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Салоны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Салоны.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Салоны.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3a93b63a-690e-4bf1-9898-833ab6254b88">
+      <name>ГаммаВелюр</name>
+      <description>Гамма велюр</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Салоны.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Салоны.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="422b706d-9c8d-4d23-91ad-a8de36ed141d">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="051a144f-36df-442a-bc97-f7689916a452">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <mask>+7 (999) 999-99-99</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="608368ed-6a16-4702-b120-51b5f0f0119c">
+    <name>Сайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1042df7a-09d8-440e-8698-c877f3c72ec1">
+    <name>Логотип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логотип</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5f2beda2-40f0-4269-8cb3-a954f2bdc2ef">
+    <producedTypes>
+      <objectType typeId="7b785cab-2917-4a4d-b78d-b388e3813325" valueTypeId="74486be3-d0fa-4649-a990-2c73fab400d1"/>
+      <rowType typeId="172fb9b7-8bde-49ad-a1b1-3060ed55becd" valueTypeId="fe01dd4a-238c-4bca-a770-25a0828f20ed"/>
+    </producedTypes>
+    <name>РежимРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ab402144-50b4-45d9-8725-6f629bf9174c">
+      <name>РабочийДень</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рабочий день</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="349bb73b-a410-495c-b071-d43ddd0a2b62">
+      <name>ДеньНедели</name>
+      <synonym>
+        <key>ru</key>
+        <value>День недели</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДниНедели</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d009055-ea65-4d8a-b676-3f83dd982a47">
+      <name>ВремяНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6757aa56-9676-4a3d-8ecb-5b1698bf3425">
+      <name>ВремяОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b586c5f9-1221-4b1e-924f-487290b7edfd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d573bbee-b0c3-48df-9c17-6e14d9be57c9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -67,6 +67,10 @@
         <segments>Объект.Date</segments>
       </dataPath>
       <titleLocation>Top</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>ДатаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ДатаРасширеннаяПодсказка</name>
         <id>3</id>
@@ -168,6 +172,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <dropListButton>true</dropListButton>
         <choiceButton>false</choiceButton>
         <editFormat>
           <key>ru</key>

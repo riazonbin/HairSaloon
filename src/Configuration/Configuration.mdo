@@ -774,8 +774,6 @@
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
-  <constants>Constant.АдресСалона</constants>
-  <constants>Constant.Телефон</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
   <constants>Constant.ГлавныйУзел</constants>
@@ -859,7 +857,6 @@
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
-  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
@@ -884,6 +881,7 @@
   <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
+  <catalogs>Catalog.Салоны</catalogs>
   <documents>Document.Запись</documents>
   <enums>Enum.ДниНедели</enums>
   <enums>Enum.ВариантыОтображенияМеток</enums>
